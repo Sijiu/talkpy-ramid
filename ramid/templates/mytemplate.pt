@@ -18,4 +18,15 @@
             </div>
         </div>
     </div>
+
+    <div metal:fill-slot="hello">
+        <div class="hello">
+            <h2>Greetings</h2>
+            <div tal:repeat="n greetings">
+                <div>
+                    <span>hello ${n}</span>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

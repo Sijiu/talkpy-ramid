@@ -14,3 +14,6 @@ def get_orders():
         {'name': 'Apples', 'price': 1.99},
         {'name': 'Bread', 'price': 2.99},
     ]
+
+def get_greetings():
+    return ["Tom", "Bob"]

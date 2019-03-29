@@ -32,8 +32,11 @@
                 <img class="logo img-responsive" src="${request.static_url('ramid:static/pyramid.png')}"
                      alt="pyramid web framework">
             </div>
-            <div class="col-md-10">
+            <div class="col-md-5">
                 <div metal:define-slot="content">No content</div>
+            </div>
+            <div class="col-md-3">
+                <div metal:define-slot="hello">No content</div>
             </div>
         </div>
         <div class="row">
